@@ -47,7 +47,7 @@ const BookListComponent = () => {
               </ErrorBoundary>
             ))}
           </div>
-          <button className="flex items-center gap-2 mt-4">
+          <button className="flex items-center gap-2 mt-5 sm:mt-[30px] xl:mt-12">
             <span className="text-base font-medium text-black">
               {" "}
               View More{" "}
@@ -69,7 +69,7 @@ const BookListComponent = () => {
             Latest Test Series
           </h1>
           <TestSeriesComponent />
-          <button className="flex items-center gap-2 max-sm:mt-4">
+          <button className="flex items-center gap-2 max-sm:py-5">
             <span className="text-sm sm:text-base  2xl:text-2xl font-medium text-black">
               {" "}
               View More{" "}

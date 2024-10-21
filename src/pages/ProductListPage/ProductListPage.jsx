@@ -40,7 +40,7 @@ const ProductListPage = () => {
           </div>
 
           <div className="xl:max-w-6xl  px-4 mx-auto pt-[43px] ">
-            <div className=" text-3xl   font-semibold leading-none text-[#353C41]">
+            <div className="xl:text-3xl text-lg md:text-2xl  font-semibold leading-none text-[#353C41]">
               JEE & Other Eng Entrances 
             </div>
             <CategoriesSlider

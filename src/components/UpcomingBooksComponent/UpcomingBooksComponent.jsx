@@ -8,7 +8,7 @@ import CustomButtonSecondary from '../CustomButtonSecondary/CustomButtonSecondar
 const UpcomingBooksComponent = ({ data=[] }) => {
   return (
     <ErrorBoundary>
-    <div className="bg-white2 pt-20 pb-10 2xl:py-10">
+    <div className="bg-white2 pt-20 " >
     <div className="max-w-6xl   px-4 mx-auto">
       {/* <p className="px-2 py-3 min-w-[126px] 2xl:h-[75px] md:h-[55px] md:w-[240px] justify-center items-center flex bg-secondary w-max rounded-full text-white text-sm md:text-base lg:text-xl 2xl:text-2xl">
         Upcoming Books
@@ -72,7 +72,7 @@ const UpcomingBooksComponent = ({ data=[] }) => {
             </svg>
           </button>
       </div>
-      <button className="flex items-center gap-2 max-sm:mt-4">
+      <button className="flex items-center gap-2 mt-5 md:mt-[30px] xl:mt-7 pb-40 md:pb-[50px] xl:pb-11">
             <span className="text-sm sm:text-base font-Isidora_Sans 2xl:text-2xl font-medium text-black">
               {" "}
               View More{" "}

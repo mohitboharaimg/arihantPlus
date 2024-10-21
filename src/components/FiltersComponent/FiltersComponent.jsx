@@ -9,7 +9,7 @@ const FiltersComponent = ({ children }) => {
     <>
     <div className="bg-white2 py-4">
     <div className="max-w-6xl px-4 mx-auto">
-      <div className="flex items-center gap-4 md:hidden flex-nowrap">
+      <div className="flex items-center gap-4 lg:hidden flex-nowrap">
         <ul
           className="*:py-1 demo *:whitespace-nowrap py-6 gap-10 scroll-none *:block w-full overflow-hidden overflow-x-auto
      flex justify-between "
@@ -58,7 +58,7 @@ const FiltersComponent = ({ children }) => {
               {/*   add  overflow-hidden  to the div below if some style is not proper    */}
       <div className="flex flex-nowrap gap-8 lg:gap-16 ">
               {/*   add  overflow-hidden  to the div below if some style is not proper    */}
-        <div className="md:w-[200px] md:block hidden  border-r-4 overflow-y-auto">
+        <div className="md:w-[280px] lg:block hidden  border-r-4 overflow-y-auto">
           <ul className="*:py-1 *:block">
             <button className="text-sm 2xl:text-xl font-semibold text-primary">
               <li>JEE Main</li>
